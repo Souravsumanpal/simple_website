@@ -1,2 +1,2 @@
 # simple_website
-demo website
+Demo website
