@@ -1,0 +1,254 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock title %}
+
+{% block body %}
+<div class="container-fluid">
+    <img src="/static/img/contact.jpg" class="d-block w-100" alt="...">
+    <center>
+        <section>
+    
+            <h1 style="color:rgb(15, 15, 15);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 50px;background:  #e0eca1; border-radius: 25px 25px 0 0; border-left: 2px solid red; border-right: 2px solid red;text-shadow: 2px 4px 5px green;">Career Dreams Educations</h1>
+        
+            <p style="color:rgb(17, 16, 16);font-family: sans-serif; font-size:50px;text-shadow: 2px 4px 5px pink;">Contact Us</p>	
+        
+        <form>
+        <table  cellpadding="16"  style="background-color:rgb(28, 27, 80);border-radius:25px;color: white;">
+        <tr><td>First Name<td><input type="text" placeholder="First Name" required></td></tr>
+        <tr><td>Last Name<td><input type="text" placeholder="Last Name" required></td></tr>
+        <tr><td>E-mail<td><input type="email" placeholder="E-mail" required></td></tr>
+        <tr><td>Mobile No.<td><input type="text" placeholder="Entert Mobile Number" maxlength="10" required></td></tr>
+        <tr><td>Reason Defined<td><textarea placeholder="Specify Meaningful"></textarea></td></tr>
+        <tr><th colspan="2"><button>Send</button></th></tr>
+        </table>
+        </form>
+            
+        </section>
+        
+    </center>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- using FontAwesome ---------------->
+  <script src="http://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <style>
+    body{
+      margin: 0px;
+      padding: 0px;
+      background-color: #FFFFFF;
+  }
+  a{
+      text-decoration: none;
+  }
+  ul{
+      list-style: none;
+  }
+    footer{
+      background-color: #353745;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .f-logo{
+      color: #FFFFFF;
+      font-family: bebas kai;
+      letter-spacing: 2px;
+      padding: 5px 10px;
+      font-size: 25px;
+    }
+    .up-section ul, .dwn-section{
+      font-family: calibri;
+      margin: 0px;
+      padding: 0px 20px;
+    }
+    .up-section h1,.dwn-section{
+      color: #9697a0;
+      font-size: 20px;
+      font-family: calibri;
+    }
+    .up-section ul li a, .dwn-section ul li a{
+      font-size: 16px;
+      color: #575a70;
+    }
+    .up-section ul li p{
+      font-size: 14px;
+      color: #575a70;
+      line-height: 10px;
+    }
+    .up-section,.dwn-section{
+      display: flex;
+      justify-content: space-between;
+      padding: 3% 0px;
+      margin: 5px;
+      width: 80%;
+      flex-wrap: wrap;
+    }
+    .up-section{
+      border-bottom: 1px solid #545562;
+    }
+    .social-icons a{
+      width: 35px;
+      height: 35px;
+      margin: 0px 5px;
+      background-color: #424356;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icons {
+      display: flex;
+    }
+    .search input{
+      height: 35px;
+      width: 200px;
+      text-align: center;
+      border: none;
+      outline: none;
+    }
+    .social-icons i{
+      color: #FFFFFF;
+      font-size: 14px;
+    }
+    .copyright{
+      font-family: calibri;
+      font-size: 12px;
+      color: #b3b3b3;
+    }
+    .up-section ul li a:hover, .dwn-section ul li a:hover{
+      color: #9697a0;
+    }
+    .social-icons a:hover{
+      background-color: #9a9ff6;
+      transition: all ease 0.5s;
+    }
+    .social-icons a:hover i{
+      color: #424356;
+    }
+    @media(max-width:1024px){
+      
+      .search{
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+      }
+      .search h1{
+        margin: 20px;
+      }
+    }
+    @media(max-width:720px){
+      .up-section,.dwn-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .up-section ul h1, .dwn-section ul h1{
+        font-size: 25px;
+      }
+      .up-section ul li, .dwn-section ul li{
+        text-align: center;
+        margin: 10px;
+      }
+      .up-section ul li a, .dwn-section ul li a{
+        font-size: 20px;
+      }
+      .f-logo{
+        border: 1px solid #545562;
+      }
+      .search{
+        display: block;
+      }
+
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <!-- footer..................... -->
+  <footer> 
+    <!--up-section................  -->
+    <div class="up-section">
+    <!-- logo.... -->
+    <a href="#" class="f-logo">DESIGN</a>
+    <!-- list........ -->
+    <!-- l.............. -->
+    <ul>
+    <!--heading -->
+    <h1 >Company</h1>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Login</a></li>
+    </ul>
+    <!-- 2.............. -->
+    <ul>
+    <!--heading.............  -->
+    <h1>About</h1>
+    <li><a href="#">Team & Company</a></li>
+    <li><a href="#">Location</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Our Services</a></li>
+    </ul>
+    <!-- contact-us-list........... -->
+    <ul>
+    <!--heading..........  -->
+    <h1>Contact Us</h1>
+    <li><p>+917011228541</p></li> 
+    <li><p>B - 5, Divya Mall Vidhan Sabha Road, Tonk Road</p></li> 
+    <li><p>Jaipur - 302015, Central Academy School</p></li> 
+    </ul>
+  
+    </div>
+    <!-- down-section............... -->
+    <div class="dwn-section">
+        <!-- l.............. -->
+    <ul>
+    <!--heading -->
+    <h1 >Company</h1>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Login</a></li>
+    </ul>
+    <!-- 2.............. -->
+    <ul>
+    <!--heading.............  -->
+    <h1>About</h1>
+    <li><a href="#">Team & Company</a></li>
+    <li><a href="#">Location</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Our Services</a></li>
+    </ul>
+    <!--social  -->
+    <div class="social">
+    <!--heading  -->
+    <h1>Social</h1>
+    <!-- social icon -->
+    <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    </div>
+    <!-- search -->
+    <div class="search">
+    <!--heading -->
+    <h1>Email</h1>
+    <!-- input box -->
+    <input type="email" placeholder="Enter your Email">
+    </div>
+    </div>
+    <!-- copyright -------->
+    <p class="copyright">Going-To Internet copyright 2020</p>
+    
+    </footer>
+</div>
+{% endblock body %}
